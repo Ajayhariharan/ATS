@@ -1,0 +1,106 @@
+{
+  "candidate_name": "John Doe",
+  "email": "john.doe@email.com",
+  "phone": "+1 (415) 555-0142",
+  "summary": "Senior Software Engineer with 5+ years of proven expertise designing and building scalable backend systems, distributed architectures, and cloud-native infrastructure. Proficient in Go, Python, and Node.js with deep experience architecting microservices, optimizing database performance, and implementing robust APIs. Demonstrated track record mentoring junior developers and shipping features to 10M+ users. Expert in containerization (Docker, Kubernetes), CI/CD pipelines, and cloud infrastructure (AWS, Azure). Passionate about writing clean, testable code and building systems that scale.",
+  "experience_records": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Stripe \u2022 San Francisco, CA",
+      "period": "Jan 2023 - Present",
+      "bullets": [
+        "Designed and implemented real-time fraud detection pipeline processing 50K+ transactions per second using Kafka and Go, reducing fraudulent charges by 18% through optimized distributed system architecture",
+        "Led migration of legacy payment reconciliation service to event-driven microservices architecture, improving system reliability from 99.5% to 99.99% uptime and establishing scalable patterns across platform",
+        "Mentored 3 junior engineers and established code review standards adopted across payments platform team, ensuring clean, testable code practices"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Figma \u2022 San Francisco, CA",
+      "period": "Jun 2021 - Dec 2022",
+      "bullets": [
+        "Built collaborative editing infrastructure supporting real-time sync for 4M+ daily active users using CRDTs and WebSockets, demonstrating expertise in distributed systems and scalable backend services",
+        "Optimized canvas rendering performance, reducing frame drop rate by 40% on large design files through WebGL batching and database query optimization",
+        "Shipped plugin marketplace search feature end-to-end, increasing plugin discovery by 25% within first quarter through robust API design and performance tuning"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Notion \u2022 San Francisco, CA",
+      "period": "Jul 2019 - May 2021",
+      "bullets": [
+        "Developed API integrations framework enabling 500+ third-party applications to connect with Notion workspaces, demonstrating expertise in API design and microservices architecture",
+        "Implemented offline-first sync engine for mobile app using SQLite and conflict resolution algorithms, showcasing distributed systems knowledge",
+        "Reduced API response latency by 60% through query optimization and strategic Redis caching layers, optimizing database performance at scale"
+      ]
+    }
+  ],
+  "project_records": [
+    {
+      "title": "DevFlow",
+      "organization": "Open-source CLI tool",
+      "period": null,
+      "bullets": [
+        "Open-source CLI tool for automating PR workflows with 2.5K GitHub stars, demonstrating commitment to open-source contributions and community-driven development"
+      ]
+    },
+    {
+      "title": "Real-time Transit Prediction App",
+      "organization": "Academic Project",
+      "period": "2022",
+      "bullets": [
+        "Built real-time transit prediction application using BART API and ML forecasting, SFHacks 2022 Winner, showcasing full-stack backend and data optimization capabilities"
+      ]
+    }
+  ],
+  "education_records": [
+    {
+      "degree": "Bachelor of Science, Computer Science",
+      "institution": "UC Berkeley",
+      "period": "2019",
+      "score": null
+    }
+  ],
+  "skills_list": [
+    "Go",
+    "Python",
+    "Node.js",
+    "TypeScript",
+    "JavaScript",
+    "SQL",
+    "PostgreSQL",
+    "Redis",
+    "NoSQL",
+    "Kafka",
+    "Elasticsearch",
+    "GraphQL",
+    "REST APIs",
+    "gRPC",
+    "AWS",
+    "ECS",
+    "Lambda",
+    "S3",
+    "RDS",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "CI/CD",
+    "API Design",
+    "Database Optimization",
+    "Distributed Systems",
+    "Microservices Architecture",
+    "Event-driven Systems",
+    "Cloud-native Development",
+    "Feature Flags",
+    "A/B Testing",
+    "Observability",
+    "Datadog",
+    "PagerDuty"
+  ],
+  "certifications": [],
+  "achievements": [],
+  "outliers": [],
+  "raw_text": "Senior Software Engineer\njohn.doe@email.com\n+1 (415) 555-0142\nSan Francisco, CA\nlinkedin.com/in/johndoe\ngithub.com/johndoe\nSUMMARY\nSenior Software Engineer with 5+ years of proven expertise designing\nand building scalable backend systems, distributed architectures, and\ncloud-native infrastructure. Proficient in Go, Python, and Node.js with\ndeep experience architecting microservices, optimizing database\nperformance, and implementing robust APIs. Demonstrated track\nrecord mentoring junior developers and shipping features to 10M+\nusers. Expert in containerization (Docker, Kubernetes), CI/CD\npipelines, and cloud infrastructure (AWS, Azure). Passionate about\nwriting clean, testable code and building systems that scale.\nEXPERIENCE\nSenior Software Engineer\nJan 2023 - Present\nStripe \u2022 San Francisco, CA\n\u2022\u00a0 Designed and implemented real-time fraud detection pipeline processing\n50K+ transactions per second using Kafka and Go, reducing fraudulent\ncharges by 18% through optimized distributed system architecture\n\u2022\u00a0 Led migration of legacy payment reconciliation service to event-driven\nmicroservices architecture, improving system reliability from 99.5% to 99.99%\nuptime and establishing scalable patterns across platform\n\u2022\u00a0 Mentored 3 junior engineers and established code review standards adopted\nacross payments platform team, ensuring clean, testable code practices\nSoftware Engineer\nJun 2021 - Dec 2022\nFigma \u2022 San Francisco, CA\n\u2022\u00a0 Built collaborative editing infrastructure supporting real-time sync for 4M+\ndaily active users using CRDTs and WebSockets, demonstrating expertise in\ndistributed systems and scalable backend services\n\u2022\u00a0 Optimized canvas rendering performance, reducing frame drop rate by 40%\non large design files through WebGL batching and database query\noptimization\n\u2022\u00a0 Shipped plugin marketplace search feature end-to-end, increasing plugin\ndiscovery by 25% within first quarter through robust API design and\nperformance tuning\nSoftware Engineer\nJul 2019 - May 2021\nNotion \u2022 San Francisco, CA\n\u2022\u00a0 Developed API integrations framework enabling 500+ third-party applications\nto connect with Notion workspaces, demonstrating expertise in API design\nand microservices architecture\n\u2022\u00a0 Implemented offline-first sync engine for mobile app using SQLite and conflict\nresolution algorithms, showcasing distributed systems knowledge\n\u2022\u00a0 Reduced API response latency by 60% through query optimization and\nstrategic Redis caching layers, optimizing database performance at scale\nPROJECTS\nDevFlow\nCreator & Maintainer\n\u2022\u00a0 Open-source CLI tool for automating PR workflows with 2.5K GitHub stars,\ndemonstrating commitment to open-source contributions and community-\ndriven development\nReal-time Transit Prediction App\n2022\nCreator\n\u2022\u00a0 Built real-time transit prediction application using BART API and ML\nforecasting, SFHacks 2022 Winner, showcasing full-stack backend and data\noptimization capabilities\nEDUCATION\nUC Berkeley | 2019\nBachelor of Science, Computer Science\nSKILLS\nGo\nPython\nNode.js\nTypeScript\nJavaScript\nSQL\nPostgreSQL\nRedis\nNoSQL\nKafka\nElasticsearch\nGraphQL\nREST APIs\ngRPC\nAWS\nECS\nLambda\nS3\nRDS\nDocker\nKubernetes\nTerraform\nCI/CD\nAPI Design\nDatabase Optimization\nDistributed Systems\nMicroservices Architecture\nEvent-driven Systems\nCloud-native Development\nFeature Flags\nA/B Testing\nObservability\nDatadog\nPagerDuty\nLINKS\nlinkedin.com/in/johndoe\ngithub.com/johndoe\nJohn Doe",
+  "filename": "modern-two-column.pdf",
+  "role_id": 6
+}

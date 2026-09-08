@@ -1,0 +1,25 @@
+=== WORK EXPERIENCE SENT TO GEMINI ===
+Lakshmi Corporate Services
+Coimbatore
+Frontend Developer Intern
+Dec 2025
+Developed a role-based Service & Activity Management Web Application using React, TypeScript, PrimeReact, and
+Redux Toolkit to streamline user operations, activity tracking, and administrative workflows with a scalable UI.
+
+=== PROJECTS SENT TO GEMINI ===
+Docsheild — MERN Stack, Blockchain, Web3.js, Smart Contracts, Encryption
+Jul 2025 – Oct 2025
+Independent Project
+Developed a blockchain-powered platform for secure document storage, encryption, and controlled sharing with
+JWT authentication. Ensured tamperproof audit trails by integrating immutable blockchain logs with MongoDB
+storage.
+Smart Water Pressure Management System — Flask, Python, ML, Epanet, Supabase
+Jan 2026 – Apr 2026
+Independent Project
+Developed a data–driven System using SCADA and EPANET for real–time monitoring, anomaly detection, and
+automated pressure optimization across urban water networks.
+
+=== EDUCATION SENT TO GEMINI ===
+Thiagarajar College of Engineering Madurai M.Sc. Data Science 2023-2028 CGPA: 7.50
+SBOA Higher Secondary School Madurai HSC 2023 Percentage: 89.33
+BMS Vidhyalayam Matriculation School Madurai SSLC 2021 Percentage: Pass

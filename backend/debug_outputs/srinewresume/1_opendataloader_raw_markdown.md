@@ -1,0 +1,138 @@
+Srinidhi K
+Madurai, Tamil Nadu, India ksrinidhi595@gmail.com | +91 9123569103 github.com/SRINIDHI-KUMAR www.linkedin.com/in/srinidhi-kumar-1b8096281
+
+## Summary
+
+Analytical and detail-oriented Data Science student with a curious mindset and a strong foundation in structured problemsolving. An active listener who quickly grasps complex concepts and translates them into practical, data-driven solutions. Demonstrates precision, critical thinking, and a continuous drive for learning, with a focus on delivering impactful insights and contributing effectively to dynamic, results-oriented environments.
+
+## Education
+
+M.Sc. (Data Science)
+Thiagarajar College of
+Engineering, Madurai (Anna
+University)
+May 2028 | CGPA: 8.61
+HSC - O.C.P.M Girls
+Higher Secondary School, Madurai
+(State Board, Tamil Nadu)
+March 2023 | Percentage: 92.6%
+SSLC - O.C.P.M Girls
+Higher Secondary School, Madurai
+(State Board, Tamil Nadu)
+March 2021 | Result: Pass
+
+## Projects
+
+Smart Water Pressure Management System
+Developed an intelligent, data-driven system integrating SCADA and EPANET for real-
+time monitoring and anomaly detection in urban water networks. Enabled automated
+pressure optimization to enhance operational efficiency and resource utilization.
+Augmented Reality Based Intelligent Navigation System
+Designed an assistive navigation solution leveraging camera input and sensor fusion to
+detect obstacles in real time. Delivered intuitive directional guidance to improve
+mobility and safety for visually impaired users.
+Smart Waste Segregation & Recycling System
+Built a CNN-based classification model for automated identification and segregation of
+recyclable waste materials. Enhanced waste management efficiency through intelligent
+sorting and data-driven decision support.
+Career Prediction System
+Developed a machine learning–based web application using Random Forest to analyze
+user inputs and predict suitable career paths. Delivered real-time data
+Madurai, Tamil Nadu, India
+
+## Achievements
+
+Career Prediction System
+- Systematic Problem Structuring
+- Analytical Pattern Recognition
+- Precision-Driven Execution
+- Cognitive Adaptability
+- Insight Translation & Decision Thinking
+Developed a machine learning-based web application using Random Forest to analyze user inputs and predict suitable career paths. Delivered real-time data
+- Best Player - Badminton (Inter-Department), Thiagarajar College of Engineering, 2025
+- Second Prize, Mathematical and Statistical Research Contest - Association of Data Science
+- First Prize Winner, Deco Disaster 5.0 - ACM Student Chapter, GGSIP University (₹3000)
+Xpense Tracker - A system that records, organizes, and manages user expenses with accuracy and clarity
+Aparajitha Corporate Services, Madurai - Dec 2025 Developed a full-stack web application using Laravel, integrating frontend and backend components with database management, session handling, and secure user authentication. Engineered an expense tracker system leveraging PHP, HTML, CSS, JavaScript, and Google-based authentication to deliver reliable user-centric financial tracking and data management.
+- Joint Treasurer, Student Research Council (Peer mentoring, research coordination, and organizing academic events)
+- Placement Representative, Department of Applied Mathematics and Computational Science (2023-Present)
+- Participant, 24-Hour Datathon 2026 - Coimbatore Institute of Technology (Problem-solving and solution development)
+- Participant, Samved Hackathon 2026 - Solapur Municipal Corporation (Real-time project execution and analytical problem-solving)
+Personal Information
+Date of Birth : 18-04-2006 Age : 19 Sex : Female
+Mother Tongue : Tamil Language Known : English [ Read ,Write ,Speak ]
+Tamil [ Read ,Write ,Speak ]
+Hindi [ Read ,Write ]
+I, SRINIDHI K do hereby confirm that the information given above is true to the best of my knowledge
+Place : Madurai Date : 21/05/2026
+Signature
+
+## Experience
+
+Product Formulation Data Management System
+Mondelez International, Mumbai - Jun 2025
+Developed a secure Streamlit-based web platform for structured management of product
+formulation data, enabling dynamic entry, validation, and real-time tracking of
+ingredients. Enhanced R&D efficiency by transforming manual workflows into an
+intuitive system for seamless product creation and formulation management.
+Xpense Tracker – A system that records, organizes, and manages user
+expenses with accuracy and clarity
+Aparajitha Corporate Services, Madurai - Dec 2025
+Developed a full-stack web application using Laravel, integrating frontend and backend
+components with database management, session handling, and secure user
+authentication. Engineered an expense tracker system leveraging PHP, HTML, CSS,
+JavaScript, and Google-based authentication to deliver reliable user-centric financial
+tracking and data management.
+Product Formulation Data Management System
+Mondelez International, Mumbai - Jun 2025 Developed a secure Streamlit-based web platform for structured management of product formulation data, enabling dynamic entry, validation, and real-time tracking of ingredients. Enhanced R&D efficiency by transforming manual workflows into an intuitive system for seamless product creation and formulation management.
+
+## Skills
+
+Programming & Databases
+:
+C, C++, Java, Python, JavaScript, MySQL, MongoDB, Redis, Neo4j
+Web & Application Development
+:
+HTML, CSS, PHP, Streamlit, Laravel Framework Basics
+Data Science & Analytics
+:
+Data Preprocessing, Exploratory Data Analysis (EDA), Predictive Analytics,
+Data Interpretation, Insight-Driven Decision Support
+Machine Learning & Deep Learning
+:
+Supervised & Unsupervised Learning, Classification & Clustering Techniques,
+Predictive Modeling, CNN, RNN, LSTM, Transformers, Vision Transformers
+Big Data & Data Engineering
+:
+Distributed Data Systems, Hadoop Ecosystem Concepts, SQL & NoSQL
+Databases, Structured and Unstructured Data Handling
+
+## Certifications
+
+Claude 101 (Fundamentals of Claude Computing) – Anthropic Education, Apr 2026
+Introduction to Business Intelligence, Front-End Development (Web Development) – Infosys Springboard, Feb 2026 & Jun
+Agile Software Development, Data Engineering Foundations, Power BI Dashboards (Software Engineering & Data
+Engineering) – LinkedIn Learning, Jun 2025
+ChatGPT for Data Analysis (AI Tools & Analytics) – Simplilearn, Jun 2025
+Why Every Front-End Developer Should Know React JS? (Frontend Development) – Certified Program, Jul 2025
+Data Science, Artificial Intelligence (AI & Data Science) – IBM Cognitive Class, Jun 2024
+Leading Teams, HR Analytics, Influencing People, Probability & Statistics (Management & Statistics) – Coursera, Apr
+I, SRINIDHI K do hereby confirm that the information given above is true to the best of my knowledge
+Place : Madurai
+Date  : 21/05/2026
+Signature
+Personal Information
+Date of Birth
+:
+Age
+: 19
+Sex
+: Female
+Mother Tongue
+:
+Tamil
+Language Known
+:
+English [ Read ,Write ,Speak ]
+Tamil [ Read ,Write ,Speak ]
+Hindi [ Read ,Write ]

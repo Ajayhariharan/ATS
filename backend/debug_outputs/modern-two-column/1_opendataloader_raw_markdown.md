@@ -1,0 +1,67 @@
+# John Doe
+
+Senior Software Engineer
+
+john.doe@email.com +1 (415) 555-0142 San Francisco, CA linkedin.com/in/johndoe github.com/johndoe
+
+## SUMMARY
+
+Senior Software Engineer with 5+ years of proven expertise designing and building scalable backend systems, distributed architectures, and cloud-native infrastructure. Proficient in Go, Python, and Node.js with deep experience architecting microservices, optimizing database performance, and implementing robust APIs. Demonstrated track record mentoring junior developers and shipping features to 10M+ users. Expert in containerization (Docker, Kubernetes), CI/CD pipelines, and cloud infrastructure (AWS, Azure). Passionate about writing clean, testable code and building systems that scale.
+
+## EXPERIENCE
+
+#### Senior Software Engineer Jan 2023 - Present
+
+##### Stripe • San Francisco, CA
+
+- • Designed and implemented real-time fraud detection pipeline processing 50K+ transactions per second using Kafka and Go, reducing fraudulent charges by 18% through optimized distributed system architecture
+- • Led migration of legacy payment reconciliation service to event-driven microservices architecture, improving system reliability from 99.5% to 99.99% uptime and establishing scalable patterns across platform
+- • Mentored 3 junior engineers and established code review standards adopted across payments platform team, ensuring clean, testable code practices
+
+
+#### Software Engineer Jun 2021 - Dec 2022
+
+##### Figma • San Francisco, CA
+
+- • Built collaborative editing infrastructure supporting real-time sync for 4M+ daily active users using CRDTs and WebSockets, demonstrating expertise in distributed systems and scalable backend services
+- • Optimized canvas rendering performance, reducing frame drop rate by 40% on large design files through WebGL batching and database query optimization
+- • Shipped plugin marketplace search feature end-to-end, increasing plugin discovery by 25% within first quarter through robust API design and performance tuning
+
+
+#### Software Engineer Jul 2019 - May 2021
+
+##### Notion • San Francisco, CA
+
+- • Developed API integrations framework enabling 500+ third-party applications to connect with Notion workspaces, demonstrating expertise in API design and microservices architecture
+- • Implemented offline-first sync engine for mobile app using SQLite and conflict resolution algorithms, showcasing distributed systems knowledge
+- • Reduced API response latency by 60% through query optimization and strategic Redis caching layers, optimizing database performance at scale
+
+
+### EDUCATION
+
+#### UC Berkeley | 2019
+
+Bachelor of Science, Computer Science
+
+### SKILLS
+
+Go Python Node.js TypeScript JavaScript SQL PostgreSQL Redis NoSQL Kafka Elasticsearch GraphQL REST APIs gRPC AWS ECS Lambda S3 RDS Docker Kubernetes Terraform CI/CD API Design Database Optimization Distributed Systems Microservices Architecture Event-driven Systems Cloud-native Development Feature Flags A/B Testing Observability Datadog PagerDuty
+
+### LINKS
+
+linkedin.com/in/johndoe github.com/johndoe
+
+## PROJECTS
+
+#### DevFlow
+
+##### Creator & Maintainer
+
+• Open-source CLI tool for automating PR workflows with 2.5K GitHub stars, demonstrating commitment to open-source contributions and communitydriven development
+
+#### Real-time Transit Prediction App 2022
+
+##### Creator
+
+• Built real-time transit prediction application using BART API and ML forecasting, SFHacks 2022 Winner, showcasing full-stack backend and data optimization capabilities
+
