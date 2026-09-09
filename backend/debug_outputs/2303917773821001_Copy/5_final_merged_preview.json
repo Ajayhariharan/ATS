@@ -1,0 +1,115 @@
+{
+  "candidate_name": "Ajay H",
+  "email": "ajayhofc@gmail.com",
+  "phone": "+91 9361968178",
+  "summary": "Web Development (Full-Stack), Data Structures & Algorithms, Artificial Intelligence & Machine Learning, Data Science & Predictive Analytics, Big Data Technologies.",
+  "experience_records": [
+    {
+      "title": "Frontend Developer",
+      "company": "Lakshmi Corporate Services Coimbatore",
+      "period": "2023 - 2025",
+      "bullets": [
+        "Developed a role-based Service & Activity Management Web Application using React, TypeScript, PrimeReact, and Redux Toolkit to streamline user operations, activity tracking, and administrative workflows with a scalable UI."
+      ]
+    }
+  ],
+  "project_records": [
+    {
+      "title": "Docsheild \u2014 MERN Stack, Blockchain, Web3.js, Smart Contracts, Encryption",
+      "organization": "Independent Project",
+      "period": "Jul 2025 \u2013 Oct 2025",
+      "bullets": [
+        "Developed a blockchain-powered platform for secure document storage, encryption, and controlled sharing with JWT authentication.",
+        "Ensured tamperproof audit trails by integrating immutable blockchain logs with MongoDB storage."
+      ]
+    },
+    {
+      "title": "Smart Water Pressure Management System \u2014 Flask, Python, ML, Epanet, Supabase",
+      "organization": "Independent Project",
+      "period": "Jan 2026 \u2013 Apr 2026",
+      "bullets": [
+        "Developed a data\u2013driven System using SCADA and EPANET for real\u2013time monitoring, anomaly detection, and automated pressure optimization across urban water networks."
+      ]
+    }
+  ],
+  "education_records": [
+    {
+      "degree": "M.Sc. Data Science",
+      "institution": "Thiagarajar College of Engineering Madurai",
+      "period": "2023-2028",
+      "score": "CGPA: 7.50"
+    },
+    {
+      "degree": "Higher Secondary (HSC)",
+      "institution": "SBOA Higher Secondary School Madurai",
+      "period": "2023",
+      "score": "Percentage: 89.33"
+    },
+    {
+      "degree": "SSLC",
+      "institution": "BMS Vidhyalayam Matriculation School Madurai",
+      "period": "2021",
+      "score": "Percentage: Pass"
+    }
+  ],
+  "skills_list": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "SQL",
+    "MySQL",
+    "MongoDB",
+    "SQLite",
+    "HTML",
+    "CSS",
+    "MERN Stack",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "PrimeReact",
+    "Data Science & ML Tools: WEKA",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "VS Code",
+    "Git",
+    "Jupyter Notebook PROJECTS",
+    "Docsheild - MERN Stack",
+    "Blockchain",
+    "Web3.js",
+    "Smart Contracts",
+    "Encryption Jul 2025 - Oct 2025 Independent Project",
+    "encryption",
+    "Smart Water Pressure Management System - Flask",
+    "ML",
+    "Epanet",
+    "anomaly detection"
+  ],
+  "certifications": [
+    {
+      "title": "Leading Teams, HR Analytics, Influencing Teams, Probability and Statistics - Coursera",
+      "issuer": "Professional Certification",
+      "date": ""
+    },
+    {
+      "title": "Computer on Office Automation - Private Institute",
+      "issuer": "Professional Certification",
+      "date": ""
+    },
+    {
+      "title": "AI Chatbots 101: Build Your First Python Assistant - Skyy Skill Academy",
+      "issuer": "Professional Certification",
+      "date": ""
+    },
+    {
+      "title": "Front-End Development (HTML, CSS, JavaScript) - Infosys Springboard",
+      "issuer": "Professional Certification",
+      "date": ""
+    }
+  ],
+  "achievements": [],
+  "outliers": [],
+  "raw_text": "Ajay H\nMadurai, Tamil Nadu, India\najayhofc@gmail.com \u2014 +91 9361968178\ngithub.com/Ajayhariharan \u2014 linkedin.com/in/ajay-h-689a1b35a/\nEDUCATION\nThiagarajar College of Engineering\nMadurai\nM.Sc. Data Science\n2023\u20132028\nCGPA: 7.50\nSBOA Higher Secondary School\nMadurai\nHSC\n2023\nPercentage: 89.33\nBMS Vidhyalayam Matriculation School\nMadurai\nSSLC\n2021\nPercentage: Pass\nAREA OF INTEREST\nWeb Development (Full-Stack), Data Structures & Algorithms, Artificial Intelligence & Machine Learning, Data\nScience & Predictive Analytics, Big Data Technologies.\nTECHNICAL SKILLS\n\u2022 Programming Languages: C, Java, Python, JavaScript, SQL\n\u2022 Database Technologies: MySQL, MongoDB, SQLite\n\u2022 Web Technologies: HTML, CSS, MERN Stack\n\u2022 Frameworks & Libraries: Express.js, React.js, Node.js, PrimeReact\n\u2022 Data Science & ML Tools: WEKA, Pandas, NumPy, Scikit-learn\n\u2022 Development Tools: VS Code, Git, GitHub, Jupyter Notebook\nPROJECTS\nDocsheild \u2014 MERN Stack, Blockchain, Web3.js, Smart Contracts, Encryption\nJul 2025 \u2013 Oct 2025\nIndependent Project\nDeveloped a blockchain-powered platform for secure document storage, encryption, and controlled sharing with\nJWT authentication. Ensured tamperproof audit trails by integrating immutable blockchain logs with MongoDB\nstorage.\nSmart Water Pressure Management System \u2014 Flask, Python, ML, Epanet, Supabase\nJan 2026 \u2013 Apr 2026\nIndependent Project\nDeveloped a data\u2013driven System using SCADA and EPANET for real\u2013time monitoring, anomaly detection, and\nautomated pressure optimization across urban water networks.\nPROFESSIONAL EXPERIENCE\nLakshmi Corporate Services\nCoimbatore\nFrontend Developer\n 2023 - 2025\nDeveloped a role-based Service & Activity Management Web Application using React, TypeScript, PrimeReact, and\nRedux Toolkit to streamline user operations, activity tracking, and administrative workflows with a scalable UI.\nCERTIFICATIONS\n\u2022 Leading Teams, HR Analytics, Influencing Teams, Probability and Statistics \u2013 Coursera\n\u2022 Computer on Office Automation \u2013 Private Institute\n\u2022 AI Chatbots 101: Build Your First Python Assistant \u2013 Skyy Skill Academy\n\u2022 Front-End Development (HTML, CSS, JavaScript) \u2013 Infosys Springboard",
+  "filename": "2303917773821001 Copy.pdf",
+  "role_id": 2
+}

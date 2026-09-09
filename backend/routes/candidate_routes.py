@@ -382,16 +382,26 @@ async def submit_and_score_resume(payload: Dict[str, Any] = Body(...)):
         years_exp = 0.0
         if exp_records:
             for exp in exp_records:
-                p_text = f"{exp.get('period', '')} {exp.get('title', '')}"
+                p_text = f"{exp.get('joining_date', '')} {exp.get('relieved_date', '')} {exp.get('period', '')} {exp.get('work_duration', '')} {exp.get('designation', '')} {exp.get('title', '')} {exp.get('company', '')}".strip()
                 years_exp += calculate_years_experience(p_text)
+            if years_exp <= 0 and len(exp_records) > 0:
+                years_exp = 0.1
+            else:
+                years_exp = max(0.1 if exp_records else 0.0, round(years_exp, 1))
         else:
-            years_exp = calculate_years_experience(raw_text)
-            
-        years_exp = round(years_exp, 1)
+            years_exp = round(calculate_years_experience(raw_text), 1)
 
         education_str = ""
         if isinstance(edu_records, list):
-            education_str = ", ".join([f"{e.get('degree', '')} ({e.get('institution', '')})" for e in edu_records if isinstance(e, dict)])
+            items = []
+            for e in edu_records:
+                if isinstance(e, dict):
+                    deg = e.get('course') or e.get('degree') or e.get('level_of_education') or ''
+                    inst = e.get('institute') or e.get('institution') or ''
+                    items.append(f"{deg} ({inst})".strip())
+                else:
+                    items.append(str(e))
+            education_str = ", ".join(items)
         else:
             education_str = str(edu_records)
 
@@ -878,6 +888,14 @@ async def get_candidate_detail(candidate_id: int):
             )
             _, matched_kws, missing_kws, total_kws, top_kws = scoring_engine.extract_keywords_comparison(resume_text, jd_text)
 
+            # Dynamic education insight calculation
+            edu_eval_text = ""
+            if isinstance(edu_records, list):
+                edu_eval_text = ", ".join([f"{e.get('course') or e.get('degree') or e.get('level_of_education') or ''} ({e.get('institute') or e.get('institution') or ''})".strip() if isinstance(e, dict) else str(e) for e in edu_records])
+            else:
+                edu_eval_text = str(edu_records or '')
+            _, edu_dynamic_insight, cand_rk, req_rk = scoring_engine.calculate_education_match(edu_eval_text, edu_req)
+
             score_details = {
                 'skill_match': s_skill,
                 'experience_match': s_exp,
@@ -911,7 +929,7 @@ async def get_candidate_detail(candidate_id: int):
                     },
                     'pillar3': {
                         'title': f"EDUCATION MATCHING (Weight: {w_ed:.0f}%)",
-                        'insight': "Evaluated against degree hierarchy ranking."
+                        'insight': edu_dynamic_insight
                     },
                     'pillar4': {
                         'title': f"SEMANTIC & DOMAIN KEYWORDS MATCHING (Weight: {w_se:.0f}%)",
@@ -1090,11 +1108,14 @@ async def recalculate_candidate_score(candidate_id: int):
         years_exp = 0.0
         if exp_records:
             for exp in exp_records:
-                p_text = f"{exp.get('period', '')} {exp.get('title', '')}"
+                p_text = f"{exp.get('joining_date', '')} {exp.get('relieved_date', '')} {exp.get('period', '')} {exp.get('work_duration', '')} {exp.get('designation', '')} {exp.get('title', '')} {exp.get('company', '')}".strip()
                 years_exp += calculate_years_experience(p_text)
+            if years_exp <= 0 and len(exp_records) > 0:
+                years_exp = 0.1
+            else:
+                years_exp = max(0.1 if exp_records else 0.0, round(years_exp, 1))
         else:
-            years_exp = calculate_years_experience(resume_text)
-        years_exp = round(years_exp, 1)
+            years_exp = round(calculate_years_experience(resume_text), 1)
 
         role = db.execute_query(
             "SELECT RoleID, RoleName, MinExperience, EducationRequirements FROM JobRoles WHERE RoleID = ?",
@@ -1129,7 +1150,15 @@ async def recalculate_candidate_score(candidate_id: int):
 
         education_str = ""
         if isinstance(edu_records, list):
-            education_str = ", ".join([f"{e.get('degree', '')} ({e.get('institution', '')})" for e in edu_records if isinstance(e, dict)])
+            items = []
+            for e in edu_records:
+                if isinstance(e, dict):
+                    deg = e.get('course') or e.get('degree') or e.get('level_of_education') or ''
+                    inst = e.get('institute') or e.get('institution') or ''
+                    items.append(f"{deg} ({inst})".strip())
+                else:
+                    items.append(str(e))
+            education_str = ", ".join(items)
         else:
             education_str = str(edu_records)
 
@@ -1273,15 +1302,26 @@ async def update_candidate_details(candidate_id: int, payload: Dict[str, Any] = 
 
         if years_exp <= 0 and exp_records:
             for exp in exp_records:
-                p_text = f"{exp.get('joining_date', '')} {exp.get('relieved_date', '')} {exp.get('period', '')} {exp.get('designation', '')} {exp.get('title', '')}"
+                p_text = f"{exp.get('joining_date', '')} {exp.get('relieved_date', '')} {exp.get('period', '')} {exp.get('work_duration', '')} {exp.get('designation', '')} {exp.get('title', '')} {exp.get('company', '')}".strip()
                 years_exp += calculate_years_experience(p_text)
+            if years_exp <= 0 and len(exp_records) > 0:
+                years_exp = 0.1
+            else:
+                years_exp = max(0.1 if exp_records else 0.0, round(years_exp, 1))
         elif years_exp <= 0:
-            years_exp = calculate_years_experience(resume_text)
-        years_exp = round(years_exp, 1)
+            years_exp = round(calculate_years_experience(resume_text), 1)
 
         education_str = ""
         if isinstance(edu_records, list):
-            education_str = ", ".join([f"{e.get('course') or e.get('degree', '')} ({e.get('institute') or e.get('institution', '')})" for e in edu_records if isinstance(e, dict)])
+            items = []
+            for e in edu_records:
+                if isinstance(e, dict):
+                    deg = e.get('course') or e.get('degree') or e.get('level_of_education') or ''
+                    inst = e.get('institute') or e.get('institution') or ''
+                    items.append(f"{deg} ({inst})".strip())
+                else:
+                    items.append(str(e))
+            education_str = ", ".join(items)
         else:
             education_str = str(edu_records)
 

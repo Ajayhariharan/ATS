@@ -92,7 +92,15 @@ async def update_scoring_weights_endpoint(payload: dict = Body(...)):
 
                     education_str = ""
                     if isinstance(edu_records, list):
-                        education_str = ", ".join([f"{e.get('degree', '')} ({e.get('institution', '')})" for e in edu_records if isinstance(e, dict)])
+                        items = []
+                        for e in edu_records:
+                            if isinstance(e, dict):
+                                deg = e.get('course') or e.get('degree') or e.get('level_of_education') or ''
+                                inst = e.get('institute') or e.get('institution') or ''
+                                items.append(f"{deg} ({inst})".strip())
+                            else:
+                                items.append(str(e))
+                        education_str = ", ".join(items)
                     else:
                         education_str = str(edu_records)
 

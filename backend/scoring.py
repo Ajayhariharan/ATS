@@ -446,24 +446,61 @@ class ScoringEngine:
             return min(1.0, max(0.0, ratio)), f"Candidate has ~{candidate_exp:.1f} yrs (Required: {required_exp:.0f} yrs)"
         return 0.0, f"No relevant work experience detected (Required: {required_exp:.0f} yrs)"
 
-    def calculate_education_match(self, candidate_education: str, required_education: str) -> Tuple[float, str, int, int]:
+    def calculate_education_match(self, candidate_education: Any, required_education: str) -> Tuple[float, str, int, int]:
         if not required_education:
             return 1.0, "No specific education requirement (100% match)", 2, 2
-        if not candidate_education:
+
+        # Robust text extraction whether input is string, JSON string, or list of dicts
+        edu_text = ""
+        if isinstance(candidate_education, list):
+            items = []
+            for e in candidate_education:
+                if isinstance(e, dict):
+                    deg = e.get('course') or e.get('degree') or e.get('level_of_education') or ''
+                    inst = e.get('institute') or e.get('institution') or ''
+                    items.append(f"{deg} {inst}".strip())
+                else:
+                    items.append(str(e))
+            edu_text = " ".join(items)
+        elif isinstance(candidate_education, str):
+            c_str = candidate_education.strip()
+            if c_str.startswith('[') or c_str.startswith('{'):
+                try:
+                    parsed = json.loads(c_str)
+                    if isinstance(parsed, list):
+                        items = []
+                        for e in parsed:
+                            if isinstance(e, dict):
+                                deg = e.get('course') or e.get('degree') or e.get('level_of_education') or ''
+                                inst = e.get('institute') or e.get('institution') or ''
+                                items.append(f"{deg} {inst}".strip())
+                            else:
+                                items.append(str(e))
+                        edu_text = " ".join(items)
+                    else:
+                        edu_text = c_str
+                except Exception:
+                    edu_text = c_str
+            else:
+                edu_text = c_str
+        else:
+            edu_text = str(candidate_education or '')
+
+        if not edu_text.strip():
             return 0.0, "No education qualifications listed in resume", 0, 2
         
         degree_hierarchy = [
-            (4, "Doctorate / Ph.D", re.compile(r'\b(?:ph\.?d|doctorate)\b', re.IGNORECASE)),
-            (3, "Master's Degree", re.compile(r'\b(?:master(?:\s+of\s+[A-Za-z]+|\s+degree)?|m\.?sc|m\.?s\b|m\.?tech|mba|mca|m\.?com|post\s+graduate)\b', re.IGNORECASE)),
-            (2, "Bachelor's Degree", re.compile(r'\b(?:bachelor(?:\s+of\s+[A-Za-z]+|\s+degree)?|b\.?sc|b\.?s\b|b\.?tech|b\.?e\b|bba|bca|b\.?com|under\s*graduate)\b', re.IGNORECASE)),
-            (1, "Diploma / Associate", re.compile(r'\b(?:diploma|associate(?:\s+degree)?)\b', re.IGNORECASE)),
-            (0, "High School / Secondary", re.compile(r'\b(?:hsc|sslc|higher\s+secondary|secondary\s+school|10th|12th|matriculation)\b', re.IGNORECASE))
+            (4, "Doctorate / Ph.D", re.compile(r'\b(?:ph\.?d|doctorate|dr\b)\b', re.IGNORECASE)),
+            (3, "Master's Degree", re.compile(r'\b(?:master(?:\s+of\s+[A-Za-z]+|\s+degree)?|m\.?sc|m\.?s\b|m\.?tech|m\.?e\b|mba|mca|m\.?com|post\s+graduate|pg\b|pg\s*diploma)\b', re.IGNORECASE)),
+            (2, "Bachelor's Degree", re.compile(r'\b(?:bachelor(?:\s+of\s+[A-Za-z]+|\s+degree)?|b\.?sc|b\.?s\b|b\.?tech|b\.?e\b|bba|bca|b\.?com|under\s*graduate|ug\b|graduate|degree)\b', re.IGNORECASE)),
+            (1, "Diploma / Associate", re.compile(r'\b(?:diploma|associate(?:\s+degree)?|polytechnic)\b', re.IGNORECASE)),
+            (0, "High School / Secondary", re.compile(r'\b(?:hsc|sslc|higher\s+secondary|secondary\s+school|10th|12th|matriculation|schooling)\b', re.IGNORECASE))
         ]
         
         cand_rank = 0
         cand_label = "High School / Unspecified"
         for rk, label, pat in degree_hierarchy:
-            if pat.search(candidate_education):
+            if pat.search(edu_text):
                 cand_rank = rk
                 cand_label = label
                 break
