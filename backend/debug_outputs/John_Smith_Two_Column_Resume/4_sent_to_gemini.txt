@@ -1,0 +1,24 @@
+=== WORK EXPERIENCE SENT TO GEMINI ===
+Senior Data Scientist | TechCorp Inc. | 2021 - Present
+• Developed machine learning models for predictive analytics, achieving
+95% accuracy
+• Led a team of 5 data scientists to build an end-to-end ML pipeline
+• Deployed models to AWS using Docker and Kubernetes
+• Reduced customer churn by 25% using advanced ML algorithms
+Data Scientist | DataFlow Analytics | 2019 - 2021
+• Built recommendation systems using collaborative filtering
+• Performed ETL on large datasets using Python and Spark
+• Created interactive dashboards using Tableau for stakeholders
+• Implemented A/B testing frameworks for product features
+Junior Data Scientist | AI Solutions Inc. | 2017 - 2019
+• Assisted in building predictive models for financial services
+• Cleaned and preprocessed large datasets
+• Automated reporting processes using Python scripts
+
+=== PROJECTS SENT TO GEMINI ===
+- • Developed a fraud detection system with 99% accuracy
+- • Built a real-time sentiment analysis dashboard
+- • Created an automated ML pipeline for model deployment
+
+=== EDUCATION SENT TO GEMINI ===
+MSc Data Science | Stanford University | 2015 - 2017 BSc Computer Science | UC Berkeley | 2011 - 2015

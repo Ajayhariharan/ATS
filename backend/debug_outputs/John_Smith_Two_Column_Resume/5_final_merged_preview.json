@@ -1,0 +1,130 @@
+{
+  "candidate_name": "JOHN SMITH",
+  "email": "john.smith@email.com",
+  "phone": "(555) 123-4567",
+  "summary": "Senior Data Scientist with 5+ years of experience in building machine learning models and deriving insights from complex datasets. Expert in Python, SQL, and statistical analysis. Proven track record of deploying ML models to production and driving business growth through data-driven decisions.",
+  "experience_records": [
+    {
+      "title": "Senior Data Scientist",
+      "company": "TechCorp Inc.",
+      "period": "2021 - Present",
+      "bullets": [
+        "Developed machine learning models for predictive analytics, achieving 95% accuracy",
+        "Led a team of 5 data scientists to build an end-to-end ML pipeline",
+        "Deployed models to AWS using Docker and Kubernetes",
+        "Reduced customer churn by 25% using advanced ML algorithms"
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "DataFlow Analytics",
+      "period": "2019 - 2021",
+      "bullets": [
+        "Built recommendation systems using collaborative filtering",
+        "Performed ETL on large datasets using Python and Spark",
+        "Created interactive dashboards using Tableau for stakeholders",
+        "Implemented A/B testing frameworks for product features"
+      ]
+    },
+    {
+      "title": "Junior Data Scientist",
+      "company": "AI Solutions Inc.",
+      "period": "2017 - 2019",
+      "bullets": [
+        "Assisted in building predictive models for financial services",
+        "Cleaned and preprocessed large datasets",
+        "Automated reporting processes using Python scripts"
+      ]
+    }
+  ],
+  "project_records": [
+    {
+      "title": "Fraud Detection System",
+      "organization": "Independent Project",
+      "period": null,
+      "bullets": [
+        "Developed a fraud detection system with 99% accuracy"
+      ]
+    },
+    {
+      "title": "Real-time Sentiment Analysis Dashboard",
+      "organization": "Independent Project",
+      "period": null,
+      "bullets": [
+        "Built a real-time sentiment analysis dashboard"
+      ]
+    },
+    {
+      "title": "Automated ML Pipeline for Model Deployment",
+      "organization": "Independent Project",
+      "period": null,
+      "bullets": [
+        "Created an automated ML pipeline for model deployment"
+      ]
+    }
+  ],
+  "education_records": [
+    {
+      "degree": "MSc Data Science",
+      "institution": "Stanford University",
+      "period": "2015 - 2017",
+      "score": null
+    },
+    {
+      "degree": "BSc Computer Science",
+      "institution": "UC Berkeley",
+      "period": "2011 - 2015",
+      "score": null
+    }
+  ],
+  "skills_list": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
+    "Statistical Analysis",
+    "Data",
+    "Visualization",
+    "AWS",
+    "Docker",
+    "Git",
+    "Apache Spark",
+    "Hadoop",
+    "Tableau",
+    "PowerBI",
+    "Deep Learning",
+    "NLP",
+    "Computer Vision",
+    "Time Series Analysis"
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Machine Learning Specialist",
+      "issuer": "Professional Certification",
+      "date": ""
+    },
+    {
+      "title": "TensorFlow Developer Certificate",
+      "issuer": "Professional Certification",
+      "date": ""
+    },
+    {
+      "title": "Microsoft Azure Data Scientist Associate",
+      "issuer": "Professional Certification",
+      "date": ""
+    }
+  ],
+  "achievements": [
+    "Best Paper Award at AI Conference 2022",
+    "Published 3 research papers in top journals",
+    "Speaker at Data Science Summit 2023"
+  ],
+  "outliers": [],
+  "raw_text": "JOHN SMITH\nData Scientist\nEmail: john.smith@email.com   |   Phone: (555) 123-4567\nLinkedIn: linkedin.com/in/johnsmith   |   GitHub: github.com/johnsmith\nSUMMARY\nSenior Data Scientist with 5+ years of experience in\nbuilding machine learning models and deriving insights\nfrom complex datasets. Expert in Python, SQL, and\nstatistical analysis. Proven track record of deploying ML\nmodels to production and driving business growth\nthrough data-driven decisions.\nSKILLS\nPython, SQL, Machine Learning, TensorFlow, PyTorch,\nScikit-learn, Pandas, NumPy, Statistical Analysis, Data\nVisualization, AWS, Docker, Git, Apache Spark,\nHadoop, Tableau, PowerBI, Deep Learning, NLP,\nComputer Vision, Time Series Analysis\nEDUCATION\nMSc Data Science | Stanford University | 2015 - 2017\nBSc Computer Science | UC Berkeley | 2011 - 2015\nCERTIFICATIONS\n\u2022 AWS Certified Machine Learning Specialist\n\u2022 TensorFlow Developer Certificate\n\u2022 Microsoft Azure Data Scientist Associate\nACHIEVEMENTS\n\u2022 Best Paper Award at AI Conference 2022\n\u2022 Published 3 research papers in top journals\n\u2022 Speaker at Data Science Summit 2023\nWORK EXPERIENCE\nSenior Data Scientist | TechCorp Inc. | 2021 - Present\n\u2022 Developed machine learning models for predictive analytics, achieving\n95% accuracy\n\u2022 Led a team of 5 data scientists to build an end-to-end ML pipeline\n\u2022 Deployed models to AWS using Docker and Kubernetes\n\u2022 Reduced customer churn by 25% using advanced ML algorithms\nData Scientist | DataFlow Analytics | 2019 - 2021\n\u2022 Built recommendation systems using collaborative filtering\n\u2022 Performed ETL on large datasets using Python and Spark\n\u2022 Created interactive dashboards using Tableau for stakeholders\n\u2022 Implemented A/B testing frameworks for product features\nJunior Data Scientist | AI Solutions Inc. | 2017 - 2019\n\u2022 Assisted in building predictive models for financial services\n\u2022 Cleaned and preprocessed large datasets\n\u2022 Automated reporting processes using Python scripts\nPROJECTS\n\u2022 Developed a fraud detection system with 99% accuracy\n\u2022 Built a real-time sentiment analysis dashboard\n\u2022 Created an automated ML pipeline for model deployment",
+  "filename": "John_Smith_Two_Column_Resume.pdf",
+  "role_id": 6
+}
